@@ -1,0 +1,41 @@
+.images{
+    display: flex;
+    align-items: flex-start;
+    transition: all 0.5s;
+}
+
+.images > img{
+    vertical-align: top;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.window{
+    width: 560px;
+    overflow: hidden;
+    box-shadow:0 0 3px #AAAAAA;
+    border-radius: 0 0 4px 4px;
+    border:1px solid white;
+    margin: 0 auto;
+}
+
+.red{
+    color: red;
+    background-color: #eeeeee;
+    background-image: url(./active_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100% 100%;
+  }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    background:url(./panel.jpg);
+}
+
+.buttons span{
+    display: inline-block;
+    padding: 10px;
+}
